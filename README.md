@@ -2,6 +2,8 @@
 
 一个基于Unity引擎开发的愤怒的小鸟二创版本，采用C# + Rust混合架构，提供高性能的物理计算和完整的游戏体验。
 
+github项目地址：https://github.com/rbetree/angry-stars
+
 ## 🎮 游戏特色
 
 - **经典愤怒的小鸟玩法**：弹弓发射英雄，摧毁建筑物，消灭所有敌人
@@ -15,7 +17,7 @@
 
 | 英雄类型 | 特殊技能 | 使用方法 |
 |---------|---------|---------|
-| ggband | 无特殊技能 | 基础英雄 |
+| ggbond | 无特殊技能 | 基础英雄 |
 | 哈吉米 | 加速冲刺 | 飞行中点击鼠标，速度翻倍 |
 | 曼波 | 爆炸攻击 | 飞行中点击鼠标，炸死范围内所有敌人 |
 | 香蕉咪咪 | 回旋镖 | 飞行中点击鼠标，水平方向反转 |
@@ -57,7 +59,7 @@
 ## 📁 项目结构
 
 ```
-AngryBirdTest/
+angry-stars/
 ├── Assets/
 │   ├── Scripts/           # C# 游戏脚本
 │   │   ├── GameManager.cs # 游戏管理器
@@ -113,10 +115,6 @@ AngryBirdTest/
 ### Rust Dependencies
 - serde (1.0) - JSON序列化
 - serde_json (1.0) - JSON处理
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
 
 ## 🙏 致谢
 
