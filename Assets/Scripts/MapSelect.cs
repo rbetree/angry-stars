@@ -57,3 +57,4 @@ public class MapSelect : MonoBehaviour {
         map.SetActive(true);
     }
 }
+

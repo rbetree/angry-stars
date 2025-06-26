@@ -65,3 +65,4 @@ public class TestMyTrail : MonoBehaviour {
         myTrail.ClearTrail();
     }
 }
+

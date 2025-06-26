@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 5061472816565417787}
   - component: {fileID: 5146049575702468237}
   - component: {fileID: 5058655102645340387}
+  - component: {fileID: 4140116162162670350}
   m_Layer: 0
   m_Name: "\u66FC\u6CE2\u5C0F\u9A6C"
   m_TagString: Player
@@ -352,3 +353,23 @@ MonoBehaviour:
   isReleased: 0
   hurt: {fileID: 21300000, guid: 1aae1fdc0713f8748bcc9eef1fe1e938, type: 3}
   blocks: []
+--- !u!114 &4140116162162670350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162902177052521271}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9d2ba94e24a41418bb01788f0fa323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedRigidbody: {fileID: 0}
+  anchor: {x: 0, y: 0}
+  connectedAnchor: {x: -2.971642, y: -1.582457}
+  distance: 0.3
+  dampingRatio: 0
+  frequency: 2
+  breakAction: 0
+  breakForce: Infinity

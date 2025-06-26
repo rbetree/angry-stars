@@ -10,3 +10,4 @@ public class Win : MonoBehaviour {
         GameManager._instance.ShowStars();
     }
 }
+

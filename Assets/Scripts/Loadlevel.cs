@@ -9,3 +9,4 @@ public class Loadlevel : MonoBehaviour {
         Instantiate(Resources.Load(PlayerPrefs.GetString("nowLevel"))); 
     }
 }
+

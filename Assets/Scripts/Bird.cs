@@ -163,3 +163,4 @@ public class Bird : MonoBehaviour {
         render.sprite = hurt;
     }
 }
+

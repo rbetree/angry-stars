@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9160928218541197532}
   - component: {fileID: 9107484076778945982}
   - component: {fileID: 9107705251936209600}
+  - component: {fileID: 4692159417563377754}
   m_Layer: 0
   m_Name: "\u9999\u8549\u732Bmeme"
   m_TagString: Player
@@ -211,6 +212,26 @@ MonoBehaviour:
   fly: {fileID: 8300000, guid: 2267ab4b0eed1334c8b18e599a0ddd7b, type: 3}
   isReleased: 0
   hurt: {fileID: 21300000, guid: b4149e7c95712e948b94328153acf4ed, type: 3}
+--- !u!114 &4692159417563377754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219065131024188434}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9d2ba94e24a41418bb01788f0fa323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectedRigidbody: {fileID: 0}
+  anchor: {x: 0, y: 0}
+  connectedAnchor: {x: -2.962912, y: -1.583298}
+  distance: 0.3
+  dampingRatio: 0
+  frequency: 2
+  breakAction: 0
+  breakForce: Infinity
 --- !u!1 &9220491831974431148
 GameObject:
   m_ObjectHideFlags: 0

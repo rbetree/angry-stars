@@ -57,3 +57,4 @@ public class BlackBird : Bird {
         GameManager._instance.NextBird();
     }
 }
+

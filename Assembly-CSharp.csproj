@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{954AB0CE-9E6A-D010-66E2-346781543F80}</ProjectGuid>
+    <ProjectGuid>{F01215D1-D08F-4CCD-4E32-160E0FA009E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Pig.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\PocketRPG Trails\Scripts\Utility\AnimationController.cs" />
+    <Compile Include="Assets\Scripts\SpringJoint2DProxy.cs" />
     <Compile Include="Assets\Scripts\LoadLevelAsync.cs" />
     <Compile Include="Assets\Scripts\Boom.cs" />
     <Compile Include="Assets\Scripts\GreenBird.cs" />
